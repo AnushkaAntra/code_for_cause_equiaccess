@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,600;1,900&display=swap');
+
+body{
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/900/403/desktop-wallpaper-aesthetic-backgrounds-light-blue-blue-aesthetic-landscape-thumbnail.jpg");
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+.box, .form, .bar{
+  float: left;
+}
+.box{
+  margin: 70px 90px;
+  padding: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(0 ,0 ,0 ,0.9);
+  width: 500px;
+  height: 500px;
+}
+.box .name{
+  width: fit-content;
+}
+.logo img, .logo h3{
+  float: left;
+}
+.name .logo img{
+  border: 2px solid #1F6E8C;
+  width: 60px;
+}
+.name .logo h3{
+  color:#1F6E8C;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 20px;
+}
+.name .image1 img{
+  width: 500px;
+  height: 350px;
+  border: none;
+}
+.name .slogan{
+  color: #1F6E8C;
+  font-family: cursive;
+  font-size: x-large;
+  font-style: italic;
+}
+.bar{
+  width: 7px;
+  height: 650px;
+  background-color: #1F6E8C;
+  margin: 55px 50px;
+}
+.form form{
+  margin: 140px 90px 140px 80px;
+  padding: 35px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(0 ,0 ,0 ,0.9);
+  height: 400px;
+  display: grid;
+  place-items: center;
+}
+.form form h2{
+  color: #3589aa;
+  font-weight: bold;
+}
+.form form input{
+  background-color: lightgray;
+  display: block;
+  border: none;
+  width: 300px;
+  height: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+.form form button{
+  background-color: #3589aa;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin: 10px 100px;
+}
+.form form .accounts{
+  float: left;
+  justify-content: space-between;
+}
+.form form .accounts img{
+  margin: 5px;
+  width: 30px;
+  border-radius:  50%;
+  border: none;
+}
+.Home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+.Home .content{
+  width: 1200px;
+  height: 700px;
+  background-color: #FFF4F4; 
+  box-shadow: 0px 7px 12px 2px rgba(0 ,0 ,0 ,0.39);
+}
+.nav{
+  background-color: #3AACB9;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo, .Nav .links a{
+  display: flex;
+  flex-direction: row;
+}
+.nav .logo img{
+  width:70px;
+  height: 50px;
+}
+.nav .links a{
+  margin: 10px 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color:rgb(226, 239, 239);
+  font-size: large;
+  font-weight: bold;
+}
+.nav .links a:hover{
+  color: #1F6E8C;
+  text-decoration: underline;
+}
+.nav .links a img{
+  width: 30px;
+  border-radius: 50%;
+  border: 4px solid #1F6E8C;
+}
+.Content{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+.about, .image{
+  padding: 30px;
+}
+.about .para{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  justify-content: space-between;
+}
+.about .head h1{
+  font-family:  'Gill Sans MT', 'Trebuchet MS';
+  font-size: 70px;
+  color: #1F6E8C;
+}
+.para p b{
+  font-size: xx-large;
+}
+.about .button button{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  border: 2px solid #1F6E8C;
+  border-radius: 20px; 
+  padding: 5px;
+  width: 100px;
+  transform: scale(1);
+  transition: 1s;
+} 
+.button button:hover{
+  transform: scale(1) translateY(-10px);
+  background-color: #3AACB9;
+}
+.button button img{
+  width: 20px;
+}
+.image img{
+  width: 500px;
+  height: 470px;
+}
