@@ -187,3 +187,6 @@ body{
   width: 500px;
   height: 470px;
 }
+button{
+  cursor: pointer;
+}

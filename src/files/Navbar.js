@@ -11,7 +11,8 @@ const Navbar = () => {
                     <img src = {logo} alt = "logo" />
                 </div>
                 <div className="links">
-                    <Link to = "/Home">Home</Link>
+                    <Link to = "/">Home</Link>
+                    <Link  to = "/Home">About</Link>
                     <Link to = "/Home">Settings</Link>
                     <Link to = "/Home">FAQs</Link>
                     <Link to = "/Home">
