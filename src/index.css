@@ -11,14 +11,13 @@ body{
   float: left;
 }
 .box{
-  margin: 70px 90px;
+  margin: 50px 90px;
   padding: 50px;
-  background-color: white;
+  background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/light-blue-background_GkNvxFHd_SB_PM.jpg);
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 1px rgba(0 ,0 ,0 ,0.9);
-  width: 500px;
-  height: 500px;
+  width: min-content;
 }
 .box .name{
   width: fit-content;
@@ -45,23 +44,24 @@ body{
 .name .slogan{
   color: #1F6E8C;
   font-family: cursive;
-  font-size: x-large;
+  font-size: large;
   font-style: italic;
 }
 .bar{
   width: 7px;
-  height: 650px;
+  height: 700px;
   background-color: #1F6E8C;
-  margin: 55px 50px;
+  margin: 25px 50px;
 }
 .form form{
   margin: 140px 90px 140px 80px;
   padding: 35px;
-  background-color: white;
+  background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/light-blue-background_GkNvxFHd_SB_PM.jpg);
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 1px rgba(0 ,0 ,0 ,0.9);
-  height: 400px;
+  width: 400px;
+  height: 450px;
   display: grid;
   place-items: center;
 }
@@ -73,25 +73,15 @@ body{
   background-color: lightgray;
   display: block;
   border: none;
-  width: 300px;
-  height: 20px;
-  margin: 5px;
-  padding: 10px;
+  height: 30px;
 }
 .form form button{
   background-color: #3589aa;
-  border-radius: 20px;
-  border: none;
   font-weight: bold;
-  font-size: large;
   color: white;
-  width: 100px;
-  height: 40px;
-  margin: 10px 100px;
 }
 .form form .accounts{
   float: left;
-  justify-content: space-between;
 }
 .form form .accounts img{
   margin: 5px;
@@ -125,7 +115,7 @@ body{
 }
 .nav .logo img{
   width:70px;
-  height: 50px;
+  height: 40px;
 }
 .nav .links a{
   margin: 10px 20px;

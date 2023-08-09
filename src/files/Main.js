@@ -3,14 +3,12 @@ import profile1 from '../images/Profile0.png';
 import logo from '../images/logo.png';
 import Login from './Login';
 import Register from './Register';
-import Navbar from "./Navbar";
 
 const Main = () => {
 
     return ( 
         <Router>
             <div className="Main">
-                <Navbar/>
                 <div className="box">
                     <div className="name">
                         <div className="logo">
@@ -20,8 +18,9 @@ const Main = () => {
                         <div className="image1">
                             <img src = {profile1} alt = "profil_image1" />
                         </div>
+                        <br/>
                         <div className="slogan">
-                            <h1>Don't be Disabled</h1>
+                            <h1>Breaking Boundries, Building Bonds</h1>
                         </div>
                     </div>
                 </div>
@@ -34,7 +33,6 @@ const Main = () => {
                     <Route exact path = "/Login">
                         <Login />
                     </Route>
-                    
                 </Switch>
             </div>
         </Router>

@@ -1,10 +1,10 @@
+import axios from "axios";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import facebook_logo from '../images/facebook logo.png';
 import google_logo from '../images/google logo.png';
 import twitter_logo from '../images/twitter_logo.png';
-import { useState } from "react";
-import axios from "axios";
 
 const Register = () => {
     const history = useHistory(); 
@@ -41,11 +41,21 @@ const Register = () => {
                         <img src = {facebook_logo} alt="facebook" />
                         <img src = {twitter_logo} alt="twitter" />  
                     </div>
-                    <input onChange={handleChange} name="name" type = "text" placeholder='Name' required/>
-                    <input onChange={handleChange} name="email" type = "email" placeholder='E-mail' required/>
-                    <input onChange={handleChange} name="password" type = "password" placeholder='Password' required/>
-                    <input onChange={handleChange} name="phone" type = "number" placeholder='Phone No' required/>
-                    <button type="submit">Register</button>
+                    <div class="mb-2">
+                        <input onChange={handleChange} class="form-control" id="textinput" name="name" type = "text" placeholder='Name' required/>
+                    </div>
+                    <div class="mb-2">
+                        <input  onChange={handleChange} class="form-control" name="email" type = "email" placeholder='E-mail' required/>
+                    </div>
+                    <div class="mb-2">
+                        <input onChange={handleChange} class="form-control" name="password" type = "password" placeholder='Password' required/>
+                    </div>
+                    <div class="mb-2">
+                        <input onChange={handleChange} class="form-control" name="phone" type = "number" placeholder='Phone No' required/>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn" type="submit">Register</button>
+                    </div>
                     {/* <button onClick = {next_page}>Register</button> */}
                     <p>Already have an account? <Link to="/Login">Login</Link></p>
                 </form>
@@ -53,5 +63,8 @@ const Register = () => {
         </div>
      );
 }
+<div class="mb-3">
+    <input type="text" class="form-control" placeholder="Disabled input" />
+</div>
  
 export default Register;

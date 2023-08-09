@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from './sidebar';
 
 const Dashboard = () => {
 		return (
-				<div className='box name' style={{textAlign:"center" ,fontSize:"larger"}}>Welcome to Dashboard</div>
+			<div className="Dashboard">
+				<Sidebar />
+				<div className="header">
+					
+				</div>
+			</div>
 		)
 }
 
