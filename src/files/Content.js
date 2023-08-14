@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import arrow from "../images/arrow.png";
 import profile1 from "../images/profile1.jpg";
 import Typewriter from "./Typewriter";
@@ -14,7 +15,7 @@ const Content = () => {
                     <p><Typewriter text="SkyLash simplifies the life of specially able by empowering them to accomplish tasks effeciently with just few taps." delay = {60} /></p>
                 </div>
                 <div className="button">
-                    <button>Try it <img src = {arrow} alt="go" /></button>
+                    <Link to = "/dashboard"><button>Try it <img src = {arrow} alt="go" /></button></Link>
                 </div>
             </div>
             <div className="image">
