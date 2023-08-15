@@ -62,6 +62,7 @@ const Hamburger = () => {
                         <img src={profile_logo} alt="profile" width="24" height="24" class="rounded-circle" />
                     </a>
                     <ul class="dropdown-menu text-small shadow">
+                        <li><a class="dropdown-item" href="#">Notifications</a></li>
                         <li><a class="dropdown-item" href="#">Settings</a></li>
                         <li><a class="dropdown-item" href="#">Profile</a></li>
                         <li><hr class="dropdown-divider" width="24" height="24" /></li>
