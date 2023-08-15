@@ -15,7 +15,7 @@ const sidebar = () => {
                     <svg class="bi me-2" width="40" height="32"></svg>
                     <span class="fs-4">SkyLash</span>
                     <svg class="bi me-2" width="40" height="32"></svg>
-                    <Link to="/dashboard_1"><img src="https://cdn-icons-png.flaticon.com/128/2791/2791853.png" width="32"/></Link>
+                    <Link to="/dashboard1"><img src="https://cdn-icons-png.flaticon.com/128/2791/2791853.png" width="32"/></Link>
                 </a>
                 <hr />
                 <ul class="nav nav-pills flex-column mb-auto bg-dark">

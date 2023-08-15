@@ -180,3 +180,15 @@ body{
 button{
   cursor: pointer;
 }
+.box1{
+  padding: 50px;
+}
+.carousel-container{
+  align-items: center;
+}
+.navbar{
+  z-index: -1;
+  opacity: 0.8;
+  padding-left: 280px;
+  height: 70px;
+}

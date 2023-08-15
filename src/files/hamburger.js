@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import profile_logo from "../images/profile_logo.png";
 
+//toogle the sidebar
 const Hamburger = () => {
     const myStyle = {
         width: "4.5rem",
