@@ -192,3 +192,24 @@ button{
   padding-left: 280px;
   height: 70px;
 }
+h2{
+  font-family:  'Gill Sans MT', 'Trebuchet MS';
+  font-weight: bold;
+  color: rgba(14, 14, 123);
+  text-decoration: underline;
+  display: grid;
+  place-items: center;
+}
+.work{
+  justify-content: center;
+  align-items: center;
+}
+.arrow{
+  padding-left: 30px;
+}
+.i1{
+  border: 10px solid rgb(10, 8, 123);
+  border-radius: 50%;
+  box-shadow: 12px 12px 8px 1px rgba(14, 14, 123, 0.2);
+  width: 150px;
+}
